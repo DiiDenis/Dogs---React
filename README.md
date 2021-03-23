@@ -10,7 +10,7 @@ Neste projeto usei os principais recursos do React, tais como:
 
 - **Hooks Personalizados:** Foram criados hooks personalizados para otimizar algumas tarefas da rede social
 
-  - **useFetch():** Ciado para otimizar requisições em APIs, o hook retorna um data, error, loading e uma função a qual faz a requisição.
+  - **useFetch():** Criado para otimizar requisições em APIs, o hook retorna um data, error, loading e uma função a qual faz a requisição.
   - **useForm():** Criado para validação de formulários...
   - **useMedia():** Criado para identificar se o usuário esta acessando a tela por um dispositivo movel para interação via js.
 
