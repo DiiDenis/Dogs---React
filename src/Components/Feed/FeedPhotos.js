@@ -26,7 +26,7 @@ const FeedPhotos = ({ user, page, setModalPhoto, setInfinite }) => {
   console.log('data', data);
   if (error) return <Error error={error} />;
   if (loading) return <Loading />;
-  if (data !== null && data.length === 0)
+  if (data !== null && data.length === 0 && page === 1)
     return (
       <p className={styles.posteUmCachorro}>
         Faça a postagem de um cachorro :)
