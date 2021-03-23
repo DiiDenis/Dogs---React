@@ -21,9 +21,6 @@ const FeedPhotos = ({ user, page, setModalPhoto, setInfinite }) => {
     fetchPhotos();
   }, [request, user, page, setInfinite]);
 
-  console.log('error', error);
-  console.log('loading', loading);
-  console.log('data', data);
   if (error) return <Error error={error} />;
   if (loading) return <Loading />;
   if (data !== null && data.length === 0 && page === 1)
