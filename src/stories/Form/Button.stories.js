@@ -12,12 +12,12 @@ const Template = (args) => <Button {...args} />;
 export const Habilitado = Template.bind({});
 Habilitado.args = {
   disabled: false,
-  label: 'Enviar',
+  children: 'Enviar',
   onClick: action('clicked'),
 };
 
 export const Desabilitado = Template.bind({});
 Desabilitado.args = {
   disabled: true,
-  label: 'Enviando...',
+  children: 'Enviando...',
 };
