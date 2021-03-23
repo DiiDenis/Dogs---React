@@ -6,7 +6,7 @@ Neste projeto usei os principais recursos do React, tais como:
 
 - **React.lazy():** Na página de estatísticas de views, como é utilizado um plugin externo o mesmo só é carregado quando a pagina é acessada.
 
-- **Hooks:** useState(), useCallBack(), useCallEffect(), useLocation(), useContext(), useParams()...
+- **Hooks:** useState(), useCallBack(), useEffect(), useLocation(), useContext(), useParams()...
 
 - **Hooks Personalizados:** Foram criados hooks personalizados para otimizar algumas tarefas da rede social
 
