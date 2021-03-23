@@ -11,7 +11,6 @@ const UserStats = () => {
   const { data, error, loading, request } = useFetch();
   React.useEffect(() => {
     async function getData() {
-      const token = window.localStorage.getItem('token');
       const { url, options } = STATS_GET();
       await request(url, options);
     }

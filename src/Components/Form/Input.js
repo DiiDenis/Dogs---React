@@ -26,7 +26,6 @@ Input.prototypes = {
   type: PropTypes.string,
   name: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  type: PropTypes.string,
   error: PropTypes.string,
   label: PropTypes.string.isRequired,
   onChange: PropTypes.func,
