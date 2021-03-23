@@ -32,6 +32,8 @@ Neste projeto usei os principais recursos do React, tais como:
 
     Usuario: diidenis
     Senha: 1234qwer
+    
+    Obs: Como no projeto utilizo a api da origamid, as fotos postadas duram apenas 10 minutos e depois são deletadas :)
 
 ## Executar o projeto
 
